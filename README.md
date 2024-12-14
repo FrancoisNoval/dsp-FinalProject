@@ -1,4 +1,4 @@
-# Real-Time Heart Rate and Respiration Signal Monitoring
+# Program Pengukuran Detak Jantung secara Realtime menggunakan Sinyal r-PPG dan Respirasi
 
 ## Deskripsi Proyek
 Proyek ini adalah implementasi sistem monitoring detak jantung (Heart Rate) dan sinyal respirasi secara real-time menggunakan teknologi computer vision dan pemrosesan sinyal. Data diperoleh dari video webcam, diproses menggunakan teknik Remote Photoplethysmography (rPPG) dan analisis sinyal untuk menghasilkan statistik detak jantung (BPM) serta sinyal respirasi. Sistem ini divisualisasikan menggunakan grafik interaktif Python.
