@@ -11,7 +11,7 @@ Fitur utama:
 
 ## Informasi Anggota
 - **Nama:** Francois Novalentino Sinurat 
-  **NIM:** 121140007  
+- **NIM:** 121140007  
  
 ## Instruksi Instalasi
 
