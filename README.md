@@ -1,7 +1,7 @@
 # Respiratory and rPPG Signal Extraction Project
 
 ## Deskripsi Proyek
-Proyek ini mengimplementasikan ekstraksi sinyal respirasi dan remote Photoplethysmography (rPPG) menggunakan analisis video real-time dari webcam.
+Proyek ini mengimplementasikan ekstraksi sinyal respirasi dan remote Photoplethysmography (rPPG) menggunakan analisis video real-time dari webcam. Proyek ini menggunakan teknik Deep Learning untuk mendeteksi gerakan pernapasan dan detak jantung dari video webcam.
 
 ## Prasyarat
 - Python 3.8+
@@ -11,8 +11,8 @@ Proyek ini mengimplementasikan ekstraksi sinyal respirasi dan remote Photoplethy
 
 1. Clone repository:
 ```bash
-git clone https://github.com/anda/respiratory-rpg-project.git
-cd respiratory-rpg-project
+git https://github.com/FrancoisNoval/dsp-FinalProject.git
+cd dsp-FinalProject
 ```
 
 2. Buat virtual environment (opsional tapi disarankan):
@@ -56,4 +56,4 @@ Anda dapat memodifikasi parameter dalam `src/signal_extractor.py`:
 [Tentukan lisensi Anda]
 
 ## Kontributor
-[Nama Anda/Kelompok]
+Francois Novalentino Sinurat - 121140007
