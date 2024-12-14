@@ -1,11 +1,23 @@
-# Respiratory and rPPG Signal Extraction Project
+# Real-Time Heart Rate and Respiration Signal Monitoring
 
 ## Deskripsi Proyek
-Proyek ini mengimplementasikan ekstraksi sinyal respirasi dan remote Photoplethysmography (rPPG) menggunakan analisis video real-time dari webcam. Proyek ini menggunakan teknik Deep Learning untuk mendeteksi gerakan pernapasan dan detak jantung dari video webcam.
+Proyek ini adalah implementasi sistem monitoring detak jantung (Heart Rate) dan sinyal respirasi secara real-time menggunakan teknologi computer vision dan pemrosesan sinyal. Data diperoleh dari video webcam, diproses menggunakan teknik Remote Photoplethysmography (rPPG) dan analisis sinyal untuk menghasilkan statistik detak jantung (BPM) serta sinyal respirasi. Sistem ini divisualisasikan menggunakan grafik interaktif Python.
 
-## Prasyarat
-- Python 3.8+
-- Webcam
+Fitur utama:
+- Deteksi wajah menggunakan MediaPipe Face Detection.
+- Penghitungan rPPG (Heart Rate) dan sinyal respirasi secara real-time.
+- Visualisasi sinyal dengan matplotlib.
+- Logging statistik detak jantung ke file untuk analisis lebih lanjut
+
+## Informasi Anggota
+- **Nama:** Francois Novalentino Sinurat 
+  **NIM:** 121140007  
+ 
+## Instruksi Instalasi
+
+### Prasyarat
+1. Python 3.8 atau lebih baru.
+2. Pastikan Anda memiliki kamera (webcam) yang terhubung dengan baik.
 
 ## Instalasi
 
@@ -36,24 +48,11 @@ python main.py
 ```
 
 ### Kontrol
-- Tekan 'q' untuk keluar dari aplikasi
-- Pastikan pencahayaan cukup dan wajah terlihat jelas oleh kamera
-
-## Konfigurasi
-
-Anda dapat memodifikasi parameter dalam `src/signal_extractor.py`:
-- `frame_rate`: Kecepatan frame kamera
-- `buffer_duration`: Durasi buffer sinyal
-- `rpg_bandpass`: Rentang frekuensi untuk sinyal rPPG
-- `resp_bandpass`: Rentang frekuensi untuk sinyal respirasi
-
-## Troubleshooting
-- Pastikan webcam tidak digunakan oleh aplikasi lain
-- Pastikan semua library terinstall dengan benar
-- Pemosisian wajah di depan kamera mempengaruhi akurasi
+1. Pastikan webcam Anda aktif.
+2. Jalankan program menggunakan perintah di atas.
+3. Ikuti output di terminal untuk melihat nilai BPM dan pernapasan secara real-time.
+4. Tekan tombol **q** untuk keluar dari program.
+5. Data BPM akan tersimpan secara otomatis di file `bpm_log.txt` untuk analisis lebih lanjut.
 
 ## Lisensi
-[Tentukan lisensi Anda]
-
-## Kontributor
-Francois Novalentino Sinurat - 121140007
+Lisensi untuk kode ini adalah [MIT License](https://opensource.org/licenses/MIT).
