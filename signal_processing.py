@@ -1,19 +1,17 @@
 from scipy.signal import butter, lfilter
 
 def butter_bandpass(lowcut, highcut, fs, order=4):
-  
     """
-    Design a bandpass filter using Butterworth filter.
-
+    Menyusun filter bandpass menggunakan filter Butterworth.
     Args:
-        lowcut (float): Lower cutoff frequency in Hz.
-        highcut (float): Higher cutoff frequency in Hz.
-        fs (int): Sampling rate in Hz.
-        order (int): Order of the filter.
-
-    Returns:
-        tuple: Filter coefficients (b, a).
+        lowcut (float): Frekuensi cutoff bawah dalam Hz.
+        highcut (float): Frekuensi cutoff atas dalam Hz.
+        fs (int): Frekuensi sampling dalam Hz.
+        order (int): Orde filter.
+    Returns: 
+        tuple: Koefisien filter (b, a).
     """
+  
     nyquist = 0.5 * fs
     low = lowcut / nyquist
     high = highcut / nyquist
@@ -22,17 +20,19 @@ def butter_bandpass(lowcut, highcut, fs, order=4):
 
 def bandpass_filter(data, lowcut, highcut, fs, order=4):
     """
-    Apply a bandpass filter to the given data.
-
+    Menerapkan filter bandpass pada data yang diberikan.
+    
     Args:
-        data (list): Input signal data.
-        lowcut (float): Lower cutoff frequency in Hz.
-        highcut (float): Higher cutoff frequency in Hz.
-        fs (int): Sampling rate in Hz.
-        order (int): Order of the filter.
-
+        data (list): Data sinyal input.
+        lowcut (float): Frekuensi cutoff bawah dalam Hz.
+        highcut (float): Frekuensi cutoff atas dalam Hz.
+        fs (int): Frekuensi sampling dalam Hz.
+        order (int): Orde filter.
+        
     Returns:
-        ndarray: Filtered signal.
+        ndarray: Sinyal yang telah difilter.
+        
     """
+
     b, a = butter_bandpass(lowcut, highcut, fs, order)
     return lfilter(b, a, data)
