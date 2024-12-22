@@ -10,9 +10,10 @@ Fitur utama:
 - Logging statistik detak jantung ke file untuk analisis lebih lanjut
 
 ## Informasi Anggota
-- **Nama:** Francois Novalentino Sinurat 
+1. - **Nama:** Francois Novalentino Sinurat 
 - **NIM:** 121140007  
- 
+2. - **Nama:** Dimas Azi Razab Aizar 
+- **NIM:** 121140135 
 ## Instruksi Instalasi
 
 ### Prasyarat
