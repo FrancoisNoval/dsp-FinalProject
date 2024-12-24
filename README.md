@@ -56,4 +56,4 @@ python main.py
 5. Data BPM akan tersimpan secara otomatis di file `bpm_log.txt` untuk analisis lebih lanjut.
 
 ## Referensi
-Referensi untuk pembuatan kode ini menggunakan [Youtube](https://opensource.org/licenses/MIT).
+Referensi untuk pembuatan kode ini menggunakan [Youtube](https://youtu.be/Q9MK-vtWzUM?si=0Sb0RGTczBeF2UaG).
