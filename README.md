@@ -55,5 +55,5 @@ python main.py
 4. Tekan tombol **q** untuk keluar dari program.
 5. Data BPM akan tersimpan secara otomatis di file `bpm_log.txt` untuk analisis lebih lanjut.
 
-## Lisensi
-Lisensi untuk kode ini adalah [MIT License](https://opensource.org/licenses/MIT).
+## Referensi
+Referensi untuk pembuatan kode ini menggunakan [Youtube](https://opensource.org/licenses/MIT).
