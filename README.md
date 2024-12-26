@@ -4,7 +4,7 @@
 Proyek ini adalah implementasi sistem monitoring detak jantung (Heart Rate) dan sinyal respirasi secara real-time menggunakan teknologi computer vision dan pemrosesan sinyal. Data diperoleh dari video webcam, diproses menggunakan teknik Remote Photoplethysmography (rPPG) dan analisis sinyal untuk menghasilkan statistik detak jantung (BPM) serta sinyal respirasi. Sistem ini divisualisasikan menggunakan grafik interaktif Python.
 
 ## Catatan: 
-Proyek ini merupakan tugas mata kuliah [kode matkul] Prodi Teknik Informatika yang dibimbing oleh dosen [Nama Dosen Anda]
+Proyek ini merupakan tugas mata kuliah *_IF 3024_*Prodi Teknik Informatika yang dibimbing oleh dosen Martin C.T. Manulang
 
 
 Fitur utama:
